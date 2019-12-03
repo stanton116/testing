@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="pagosa.css">
+
+<head> <meta name="description " content= " Reservations" >
+   <title></title>
+   <meta charset="utf-8">
+</head>
+
+<script>
+	function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+// attach an event listener that call an anonymous function. 
+      body.addEventListener('click',function(){
+        switchColor(body);
+      });
+
+// changed my mind on some of these
+
+function clickAlert() {
+    alert("Your Information Submitted!");
+}
+
+</script>
+
+<body>
+   <div id="wrapper">
+      <h1 id="id1">Claim Your Reservation!</h1>
+	  
+      <div id="content">
+	  
+<button type="button" 
+onclick="document.getElementById('id1').style.color = 'blue'">
+Click Me!</button>
+	  
+	<!--  remember to put a return false statement at the end of the function 
+	whatever you set as the user name will be the attribute
+<h3>Contact Us Today!</h3>
+-->
+
+<form method="post" 
+action="/action_page.php">
+
+<!--action="http://webdevbasics.net/scripts/pacific.php"-->
+<!--action="http://fhsu.edu-->
+
+<br><label for="myFName">First Name:</label>
+<input type="text" required name="myFName" id="myFName">
+<br><label for="myLName">Last Name:</label>
+<input type="text" required name="myLName" id="myLName">
+<br><label for="myEmail">E-Mail:</label>
+<input type="text" required name="myEmail" id="myEmail">
+<br><label for="myPhone">Phone:</label>
+<input type="text" name="myPhone" id="myPhone">
+<br><label for="myComments">Comments:</label>
+<textarea name="myComments" id="myComments" rows="3" cols="20"></textarea>
+<br><input id="mySubmit" type="submit" onclick="clickAlert()"value="Submit Here">
+
+
+</form>
+<div  id="footer"><br>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

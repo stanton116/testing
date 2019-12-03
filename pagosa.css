@@ -1,0 +1,127 @@
+
+
+body {
+  background-color: #3F2860;
+  color: #3F2860;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+
+#wrapper{margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		background-color: #90C7E3;
+		min-width: 960px;
+		max-width: 2048px;
+		box-shadow: 3px 3px 3px #333333;
+		background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+		border: 1px solid #000033;
+}
+
+header {
+  background-color: #9BC1C2;
+  background-image: url(lilyheader.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 150px;
+}
+
+h1 {
+	text-align: center;
+  padding-top: 50px;
+  padding-left: 2em;
+}
+h3{
+	text-align: center;
+}
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  padding: 1em;
+  background-color: #F5F5F5;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.area {
+  font-style: italic;
+}
+
+footer {
+  background-color: #9BC1C2;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
+
+#wrapper {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F5F5F5;
+  min-width: 1000px;
+  max-width: 1280px;
+}
+
+#content
+{
+	text-align: center;
+	padding: .75em;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+form {
+	position: left-side;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: left center right;
+}
+
+label
+{
+	margin-left: 300px;
+	grid-row: auto;
+	grid-column: 1/2;
+	
+}
+
+input
+{
+	width: 85%;
+	margin: .25em 0 .25em 0;
+	
+}
+textarea
+{
+		width: 85%;
+		resize:none;
+}
+#myFName
+{
+	grid-row: auto;
+	grid-column: 2/3;
+}
+
+#mySubmit
+{
+	grid-row: auto;
+	grid-column: 2/3;
+}
+
+img{
+  padding-left: 1em;
+  padding-right: 1em;
+  
+}
+
+#hero{
+  text-align: center;
+}
